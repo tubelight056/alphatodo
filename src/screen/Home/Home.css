@@ -1,0 +1,300 @@
+body {
+  margin: 0px;
+  background-color: #a239ea;
+  /* font-family: "Alfa Slab One", cursive;
+
+  font-family: "Roboto", sans-serif;
+
+  font-family: "Shadows Into Light", cursive; */
+}
+
+.homeh1 {
+  font-family: "Shadows Into Light", cursive;
+  margin: 5px 0px;
+}
+.todoBoxh1 {
+  margin-left: 20px;
+}
+.homeOuterBox {
+  display: flex;
+  flex-wrap: wrap;
+  height: 99vh;
+}
+
+.homeInnertodoBox {
+  position: absolute;
+  right: 5%;
+  width: 50vw;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px solid;
+  border-radius: 20px;
+  backdrop-filter: blur(4px);
+  padding: 40px;
+  margin: 40px;
+}
+.homeInnercreatetodoBox {
+  width: 20vw;
+  overflow-x: unset;
+  /* position: fixed;
+  z-index: 0; */
+  min-height: 300px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px solid;
+  border-radius: 20px;
+  backdrop-filter: blur(4px);
+  padding: 40px;
+  margin: 40px 40px 20px 40px;
+}
+
+.name {
+  color: white;
+  font-family: "Alfa Slab One", cursive;
+}
+
+.cardOuterContainer {
+  font-family: "Shadows Into Light", cursive;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cardcontainer {
+  width: auto;
+  padding: 20px;
+  border: 2px solid;
+  border-radius: 20px;
+  font-weight: 800;
+  margin: 20px;
+  max-width: 85%;
+}
+
+.backgroundBlacker {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.todotitle {
+  /* font-family: "Alfa Slab One", cursive; */
+  color: white;
+  cursor: pointer;
+}
+
+.hovertext {
+  visibility: hidden;
+  font-size: 24px;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  border-radius: 6px;
+  position: fixed;
+  z-index: 1;
+  transition: all 3s linear alternate;
+}
+
+.cardcontainer:hover .hovertext {
+  visibility: visible;
+  top: 20px;
+  left: 30%;
+}
+
+.strike {
+  text-decoration: line-through underline;
+  color: #a239ea;
+}
+
+.red {
+  border: none;
+}
+.green {
+  border-color: black;
+}
+
+.todoimg {
+  position: relative;
+  justify-self: left baseline;
+  text-align: end;
+}
+.editicon {
+  font-size: 48px;
+}
+
+.addTodoContainer textarea:nth-child(1) {
+  width: 90%;
+  resize: none;
+  max-height: 3rem;
+  padding: 10px;
+  margin: 0 0 10px 0;
+  border-radius: 0.5rem;
+  border: 2px solid #a239ea;
+  outline-width: 0px;
+}
+
+.addTodoContainer textarea:nth-child(2) {
+  width: 90%;
+  resize: none;
+  height: 6rem;
+  padding: 10px;
+  margin: 0 0 10px 0;
+  border-radius: 0.5rem;
+  border: 2px solid #a239ea;
+  outline-width: 0px;
+}
+
+.addTodoContainer textarea:focus {
+  border: 1px solid #000;
+  outline-width: 0px;
+}
+
+.addTodoContainer input:focus {
+  border: 1px solid #000;
+  outline-width: 0px;
+}
+
+.spanicon {
+  font-style: "Alfa Slab One", cursive;
+  background-color: #a239ea;
+  color: white;
+  width: 100%;
+  border: 2px solid #a239ea;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  margin: 10px 0 0 0;
+  height: 3rem;
+}
+
+.spanicon:active {
+  border-color: black;
+}
+
+.popupmodel {
+  width: 100vw;
+  height: 100vh;
+
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  position: fixed;
+
+  z-index: 2;
+}
+
+.popupInnercreatetodoBox {
+  position: fixed;
+  width: 40vw;
+  overflow-x: unset;
+  height: 350px;
+  background-color: #a239ea;
+  border: 2px solid;
+  border-radius: 20px;
+  backdrop-filter: blur(5px);
+  padding: 2rem;
+  margin: 5vw 30vw;
+
+  min-width: 250px;
+}
+.popupTodoContainer textarea:nth-child(1) {
+  width: 95%;
+  resize: none;
+  max-height: 3rem;
+  padding: 10px;
+  margin: 0 0 10px 0;
+  border-radius: 0.5rem;
+  border: 2px solid #a239ea;
+  outline-width: 0px;
+}
+
+.popupTodoContainer textarea:nth-child(2) {
+  width: 95%;
+  resize: none;
+  max-height: 100px;
+  padding: 10px;
+  margin: 0 0 10px 0;
+  border-radius: 0.5rem;
+  border: 2px solid #a239ea;
+  outline-width: 0px;
+}
+
+.popupTodoContainer textarea:focus {
+  border: 1px solid #000;
+  outline-width: 0px;
+}
+
+.popupTodoContainer input:focus {
+  border: 1px solid #000;
+  outline-width: 0px;
+}
+
+.popupbtn {
+  font-style: "Alfa Slab One", cursive;
+  background-color: #a239ea;
+  color: white;
+  width: 100%;
+  border: 2px solid white;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  margin: 10px 0 0 0;
+  height: 3rem;
+}
+
+.popupbtn:active {
+  border-color: black;
+}
+
+.popuph1 {
+  font-family: "Shadows Into Light", cursive;
+  margin: 5px 0px;
+}
+
+.leftbox {
+  position: fixed;
+  z-index: 0;
+  display: grid;
+}
+
+.settingsbox {
+  justify-content: flex-end;
+  display: flex;
+  margin-right: 35px;
+}
+
+.settingsbox button {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px solid;
+  border-radius: 10px;
+  backdrop-filter: blur(4px);
+  padding: 10px;
+  margin: 0px 5px;
+  cursor: pointer;
+}
+
+.settingsbox h1 {
+  font-family: "Shadows Into Light", cursive;
+  padding: 0px 20px 0px 0px;
+  font-size: 32px;
+  margin: 0px;
+  color: white;
+  cursor: pointer;
+}
+.whiteScreen {
+  visibility: hidden;
+  background-color: #a239ea;
+  color: Black;
+  justify-content: center;
+  position: fixed;
+  z-index: 5;
+  height: 99vh;
+  width: 99vw;
+  place-items: center;
+  font-size: 32px;
+  font-weight: bolder;
+  font-family: "Alfa Slab One", cursive;
+}
+
+@media screen and (max-width: 1080px) {
+  .whiteScreen {
+    visibility: visible;
+  }
+  .whiteScreenH1 {
+    padding: 10%;
+    width: 60%;
+  }
+}
