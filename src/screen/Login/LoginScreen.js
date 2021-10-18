@@ -32,7 +32,7 @@ const Login = () => {
   return (
     <div className="loginOuterContainer">
       <div className="whiteScreen">
-        <h1 className="whiteScreenH1">Hello world, Take me in desktop view</h1>
+        <h1 className="whiteScreenH1">Hello world, Take me in laptop or desktop</h1>
       </div>
       <div className="LoginInnerContainer">
         <h1 className="loginH1">Alpha Todo</h1>
