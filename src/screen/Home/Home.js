@@ -120,7 +120,7 @@ const Home = () => {
   return (
     <div className="homeOuterBox">
       <div className="whiteScreen">
-        <h1 className="whiteScreenH1">Hello world, Take me in desktop view</h1>
+        <h1 className="whiteScreenH1">Hello world, Take me in Laptop or desktop</h1>
       </div>
       <div className="leftbox">
         <div className="homeInnercreatetodoBox">
